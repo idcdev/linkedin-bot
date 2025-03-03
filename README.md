@@ -36,7 +36,7 @@ An intelligent bot to automate LinkedIn connections in a humanized way.
 
 1. Clone the repository:
 ```bash
-git clone [your-repository]
+git clone git@github.com:idcdev/linkedin-bot.git
 cd linkedin-bot
 ```
 
