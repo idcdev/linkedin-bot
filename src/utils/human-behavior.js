@@ -64,7 +64,7 @@ async function getViewportCenter(page) {
         y: viewport.height / 2
       };
     }
-  } catch (error) {
+  } catch {
     console.log('Using default dimensions for viewport');
   }
   
