@@ -1,0 +1,21 @@
+{
+  "name": "linkedin-bot",
+  "version": "1.0.0",
+  "description": "LinkedIn automation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^24.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.57.0",
+    "eslint": "^8.57.0",
+    "globals": "^14.0.0"
+  }
+}
